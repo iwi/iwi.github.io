@@ -6,15 +6,19 @@
 </description>
     <link>http://iwi.github.io/blog//</link>
     <atom:link href="http://iwi.github.io/blog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Oct 2015 13:23:10 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2015 13:23:10 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2015 08:13:45 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2015 08:13:45 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>First test post</title>
         <description>&lt;h1 id=&quot;just-a-test&quot;&gt;Just a test&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Finally&lt;/strong&gt; I have something that &lt;em&gt;kinda&lt;/em&gt; works.
-And now something completely different.&lt;/p&gt;
+And now &lt;a href=&quot;http://localhost:4000/blog/&quot;&gt;something&lt;/a&gt; completely different.&lt;/p&gt;
+
+&lt;p&gt;An image:&lt;/p&gt;
+
+&lt;p&gt;[an_image]![]&lt;/p&gt;
 
 &lt;p&gt;A list:&lt;/p&gt;
 
