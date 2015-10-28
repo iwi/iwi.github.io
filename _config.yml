@@ -1,0 +1,10 @@
+# Site settings
+title: iwi's blog 
+email: iwi@tuta.io
+# description: > # this means to ignore newlines until "baseurl:"
+#    A simplified record of my struggles with data, statistics, programming, etc.
+# baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+# url: "http://iwi.github.io" # the base hostname & protocol for your site
+# github_username: iwi 
+markdown: redcarpet
+highlighter: pygments 
