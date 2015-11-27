@@ -6,13 +6,13 @@ date:   2015-11-27 12:00:00
 categories: posts
 published: true
 ---
-As a believer in the value of VCS I've recently prepared a talk on Git, specifically aimed at statisticians (my co-workers); in this post I'll go through some of my thoughts and struggles in finding a way to talk to them. 
+As a believer in the value of version control systems (VCS) I've recently prepared a talk on Git, specifically aimed at statisticians (my co-workers); in this post I'll go through some of my thoughts and struggles in finding a way to talk to them. 
 
 I'm convinced that modern statisticians require programming skills. Data manipulation, modelling, simulation and visualisation are nowadays hard to conceive without tools like R, Python or Julia. If we include _data science_ (e.g. big data and machine learning) then there's no doubt about it, as it just wouldn't exist without computers.
 
 Many statisticians have already figured that out but, as far as I can tell, many haven't yet taken advantadge of a great deal of the knowledge, tools and practices that programmers have been gathering for a long time. Among all those tools and practices, the use of version control is something that I would prioritise.
 
-Version Control Systems (VCS) have been around for almost 50 years, however, it's a step that most statisticians I've come across are taking on very slowly. They find it daunting and have trouble understanding how the effort of learning such a tool could ever pay back. In my experience, explaining Git to lay persons has been rather difficult and often not very gratifying.
+VCS have been around for almost 50 years, however, it's a step that most statisticians I've come across are taking on very slowly. They find it daunting and have trouble understanding how the effort of learning such a tool could ever pay back. In my experience, explaining Git to lay persons has been rather difficult and often not very gratifying.
 
 [xkdc] (http://xkdc.net/1576) exemplifies with clarity what I want to avoid and I'm quite sure is extremely frequent.
 
