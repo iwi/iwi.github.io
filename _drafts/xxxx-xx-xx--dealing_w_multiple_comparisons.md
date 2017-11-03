@@ -43,8 +43,8 @@ The paper includes a few very clear examples that illustrate the type of issues
 that we commonly face. The first one, summarised in the image below, is a
 comparison of intervals for the mean effect of a treatment in eight different
 schools using no correction, the Bonferroni correction and a multilevel model.
-It's obvious how much smaller is the variability of the estimates in the latter
-option, and that's because they're using the information from **all** the
+It's obvious how much smaller the variability of the estimates in the latter
+option is, and that's because they're using the information from **all** the
 schools.
 
 ![gelman image](../images/multi-comparisons.png "Gelman, Hill & Yajima")
