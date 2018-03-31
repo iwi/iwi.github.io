@@ -2,7 +2,6 @@
 title: "Aggregate data for density plots"
 output:
   html_document: default
-  html_notebook: default
 ---
 
 When doing descriptive stats it's quite useful to draw some histograms. A nice approach to that are 
@@ -70,6 +69,8 @@ p <-
                  as.table = TRUE)
 p
 ```
+
+the plot:
 
 ![imatge1](/images/unnamed-chunk-3-1.png)
 
