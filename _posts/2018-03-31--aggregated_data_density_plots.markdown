@@ -87,7 +87,7 @@ t %>%
                margins = TRUE)
 ```
 
-![plot of chunk unnamed-chunk-4](/images/unnamed-chunk-4-1.png)
+![imatge2](/images/unnamed-chunk-4-1.png)
 
 However, if the data is a bit large, e.g. 10 million records or more, R chokes.
 
