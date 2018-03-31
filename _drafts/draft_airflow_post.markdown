@@ -123,3 +123,63 @@ Basically what changes is that we add a data volume and a means to persist the
 `airflow.cfg` configuration file.
 
 
+For testing a using Make was very convenient:
+
+Makefile
+
+```
+start:
+  docker-compose -f docker-compose-LocalExecutor.yml up -d
+
+stop:
+  docker-compose -f docker-compose-LocalExecutor.yml stop
+
+rm:
+  docker-compose -f docker-compose-LocalExecutor.yml down
+
+
+logs:
+  docker-compose -f docker-compose-LocalExecutor.yml logs -f
+
+shell:
+  docker-compose -f docker-compose-LocalExecutor.yml exec webserver bash
+           
+rmvol:
+  docker volume rm etlwithairflow_data
+
+psql:
+  docker-compose -f docker-compose-LocalExecutor.yml exec postgres bash
+```
+
+At this point the example was working, but I still didn't understand what was
+going on. So I tried to be systematic and go step by step:
+
+1. I have two postgres databases (OLTP and DWH) and a webserver
+2. The goal is to Extract data from the OLTP, Transform it, and Load it into
+   the DWH
+
+So I needed to check what was included in the OLTP
+
+I did that in two ways: 
+  - Checking the code that was used to build it
+  - going into the container and checking the databases tables there
+
+To do the latter I used the `make psql` command I had built which basically
+gives me access to bash inside the container.
+
+There I run `psql -U postgres` which logs into the Postgres CLI, and there with
+`\l` I listed the databases to ensure that the `postgres_oltp` was available.
+Then connected to it with `connect postgres_oltp`
+
+
+
+```
+SELECT
+  table_schema,
+  table_name
+FROM
+  information_schema.tables
+ORDER BY
+  table_schema,
+  table_name;
+```
