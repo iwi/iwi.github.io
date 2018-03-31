@@ -74,7 +74,7 @@ p
 
 and then let's plot it
 
-![imatge1](images/unnamed-chunk-3-1.png)
+![imatge1](/images/unnamed-chunk-3-1.png)
 
 another plot that is nice to see...
 
