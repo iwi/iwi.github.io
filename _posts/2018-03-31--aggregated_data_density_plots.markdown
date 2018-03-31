@@ -150,7 +150,7 @@ agg %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-7](/images/unnamed-chunk-7-1.png)
+![imatge3](/images/unnamed-chunk-7-1.png)
 
 Which is a bit different to the original
 
@@ -164,7 +164,7 @@ t %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-8](/images/unnamed-chunk-8-1.png)
+![imatge4](/images/unnamed-chunk-8-1.png)
 
 The quantilisation is ugly and difficult to adjust if I want more precision. This option is a bit better becausee it
 by moving the `by` I can adjust it.
@@ -182,7 +182,7 @@ qx %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-9](/images/unnamed-chunk-9-1.png)
+![imatge5](/images/unnamed-chunk-9-1.png)
 
 
 This option is fast enough, so we can now expand it to using one grouping variable.
