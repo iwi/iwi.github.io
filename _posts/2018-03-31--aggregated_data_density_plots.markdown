@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "Aggregate data for density plots"
-output:
-  html_document: default
+cover: cover.jpg
+date:   2018-03-31 12:00:00
+categories: posts
+published: true
 ---
 
 When doing descriptive stats it's quite useful to draw some histograms. A nice approach to that are 
