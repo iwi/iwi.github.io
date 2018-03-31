@@ -87,7 +87,7 @@ t %>%
                margins = TRUE)
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](/images/unnamed-chunk-4-1.png)
 
 However, if the data is a bit large, e.g. 10 million records or more, R chokes.
 
@@ -150,7 +150,7 @@ agg %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-7](/images/unnamed-chunk-7-1.png)
 
 Which is a bit different to the original
 
@@ -164,7 +164,7 @@ t %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](/images/unnamed-chunk-8-1.png)
 
 The quantilisation is ugly and difficult to adjust if I want more precision. This option is a bit better becausee it
 by moving the `by` I can adjust it.
@@ -182,7 +182,7 @@ qx %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/images/unnamed-chunk-9-1.png)
 
 
 This option is fast enough, so we can now expand it to using one grouping variable.
@@ -206,7 +206,7 @@ qx %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
+![plot of chunk unnamed-chunk-10](/images/unnamed-chunk-10-1.png)
 
 Which looks extremely similar to the original one:
 
@@ -219,7 +219,7 @@ t %>%
     theme_bw()
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
+![plot of chunk unnamed-chunk-11](/images/unnamed-chunk-11-1.png)
 
 
 And adding in the `facet_grid` it still runs fast and the plots look very very similar to what they would look like using the original data.
@@ -242,7 +242,7 @@ qx %>%
                margins = TRUE)
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
+![plot of chunk unnamed-chunk-12](/images/unnamed-chunk-12-1.png)
 
 And the original was
 
@@ -250,7 +250,7 @@ And the original was
 p
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13](/images/unnamed-chunk-13-1.png)
 
 
 As always stackoverflow crowd provided 90% of [the solution](https://stackoverflow.com/questions/30488389/using-dplyr-window-functions-to-calculate-percentiles).
