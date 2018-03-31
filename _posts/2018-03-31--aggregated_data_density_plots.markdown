@@ -71,7 +71,8 @@ p <-
 p
 ```
 
-![plot of chunk unnamed-chunk-3](/images/unnamed-chunk-3-1.png)
+![imatge1](/images/unnamed-chunk-3-1.png)
+
 another plot that is nice to see...
 
 ```r
