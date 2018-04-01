@@ -7,11 +7,16 @@ categories: posts
 published: true
 ---
 
-When doing descriptive stats it's quite useful to draw some histograms. A nice approach to that are 
-the density plots that you can draw with `ggplot2::geom_density`. It is also useful 
-to create a grid of plots by different subsets of data with `ggplot2::facet_grid`.
+When producing descriptive stats it's quite useful to draw some histograms. A nice approach to that are the density plots that you can draw with `ggplot2::geom_density`. It is also useful to combine that with `ggplot2::facet_grid` to produce a grid of density plots.
 
-Let's create some data to show it
+When the data is not too big this is relatively easy to do, but if the data is
+large the usual process does not work because R can't cope with that much data
+in memory.
+
+Here I show a way of pre-aggregating the data so the plots can still be drawn.
+
+
+I'll start with an example where R, `geom_density` and `facet_grid` can deal with it. 
 
 ```r
 library(dplyr)
@@ -76,21 +81,8 @@ and then let's plot it
 
 ![imatge1](/images/unnamed-chunk-3-1.png)
 
-another plot that is nice to see...
 
-```r
-t %>% 
-  ggplot(aes(x, colour = y, fill = y)) +
-    geom_freqpoly() +
-    theme_bw() +
-    facet_grid(w ~ z,
-               margins = TRUE)
-```
-
-![imatge2](/images/unnamed-chunk-4-1.png)
-
-However, if the data is a bit large, e.g. 10 million records or more, R chokes.
-
+Now, if we try to run the same process but with a 25 million records. 
 
 ```r
 t <- simulator(1e7)
@@ -104,19 +96,18 @@ t %>%
                margins = TRUE,
                as.table = TRUE)
 ```
-
+R chokes, and we get a message similar to this:
 ```
 Error: cannot allocate vector of size 762.9 Mb
 ```
 
-A solution to that is to aggregate the data before drawing the plots. Of course, there will be
-information loss, but that should be ok if the aggregation is done properly.
+A solution to that is to aggregate the data before drawing the plots. Of course, there will be information loss, but that should be ok if the aggregation is done properly.
 
-This is the first attempt to do an aggregation. Initially focusing on drawing a simple density plot for all the data.
+To make sure that I'm doing it right I started with a simple density plot. No groups. 
 
-I took the mean within each decile.
+To get an aggregated set of values I took the mean within each decile.
 
-For the example I'll use just 10,000 to see that different options capture the differences.
+In this case I used just 10,000 to see that different options capture the differences.
 
 ```r
 nt <- 
@@ -152,7 +143,7 @@ agg %>%
 
 ![imatge3](/images/unnamed-chunk-7-1.png)
 
-Which is a bit different to the original
+Which is a bit different to the original in blue below.
 
 ```r
 t %>% 
@@ -166,10 +157,9 @@ t %>%
 
 ![imatge4](/images/unnamed-chunk-8-1.png)
 
-The quantilisation is ugly and difficult to adjust if I want more precision. This option is a bit better becausee it
-by moving the `by` I can adjust it.
+The quantilisation was ugly and difficult to adjust if I wanted more precision which I thought was the case. 
 
-Here instead of taking the mean I'm taking the percentile value.
+I made two changes, first I ignored the need for the mean and took the percentile value. Second I built it in a way that a change in the number of percentiles was easy to adjust.
 
 ```r
 qx <- tibble(q = quantile(t$x, probs = seq(0, 1, by = 0.0001)))
@@ -185,7 +175,7 @@ qx %>%
 ![imatge5](/images/unnamed-chunk-9-1.png)
 
 
-This option is fast enough, so we can now expand it to using one grouping variable.
+This option was fast enough, so I expanded it to using one grouping variable.
 
 ```r
 library(tidyr)
@@ -195,8 +185,8 @@ library(purrr)
 qx <- 
   t %>%
     nest(-y) %>%
-    mutate(Quantiles = map(data, ~ quantile(.$x, probs = seq(0, 1, by = 0.0001)))) %>% 
-    unnest(map(Quantiles, tidy))
+    mutate(qtls = map(data, ~ quantile(.$x, probs = seq(0, 1, by = 0.0001)))) %>% 
+    unnest(map(qtls, tidy))
 
 qx %>% 
   ggplot(aes(x = x, colour = y, fill = y)) +
