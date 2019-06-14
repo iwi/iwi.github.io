@@ -1,4 +1,11 @@
-# DSBS
+---
+layout: post
+title: "DSBS"
+cover: cover.jpg
+date:   2015-11-27 12:00:00
+categories: posts
+published: true
+---
 
 Streams of data through your memory  
 intoxicated meaning,  
