@@ -2,7 +2,7 @@
 layout: post
 title: "DSBS"
 cover: cover.jpg
-date:   2015-11-27 12:00:00
+date:   2019-06-01 12:00:00
 categories: posts
 published: true
 ---
@@ -14,7 +14,7 @@ because who doesn't love
 watching clouds that are not clouds,  
 pathetic hallucinations.
 
-"It is wrong from beginning to end,' said the Caterpillar decidedly,..."  
+  "It is wrong from beginning to end,' said the Caterpillar decidedly,..."  
 But your eyes are dotted and your teas are crossed, so it's alright.  
 
 Graphs, plots and circles,  
@@ -23,7 +23,7 @@ flowing arrows and mesmerising maps.
 The data's ready to tell your story,  
 the beauty's ready to bring you glory.  
 
-"what is the use of a book thought Alice, without pictures or conversations?"  
+  "what is the use of a book thought Alice, without pictures or conversations?"  
 The i-s are plotted and the t-s are glossed, so it's alright.  
 
 A nasty diarrhea of entangled buzzwords,  
@@ -32,7 +32,7 @@ And you look, and think you see,
 uncertainty's gone, a shiny glee,  
 it is a dream where magic's free.  
 
-"... a grin without a cat! It's the most curious thing I ever saw in my life"  
+  "... a grin without a cat! It's the most curious thing I ever saw in my life"  
 Your eyes are crossed because you squint, and it's alright.  
 
 Another terrifying party  
@@ -44,7 +44,7 @@ that the charm breaks,
 that they know that you don't know.  
 Exhilaration, unstoppable inebriation.  
 
-"You're entirely bonkers. But I'll tell you a secret. All the best people are."  
+  "You're entirely bonkers. But I'll tell you a secret. All the best people are."  
 Your lies are bloated and your bliss is boosted, so it's alright.  
 
 You're drunk with spurious correlations,  
@@ -56,6 +56,6 @@ because you know they're jealous
 of your success.  
 
 "All mimsy were the borogoves,  
-And the mome raths outgrab"  
+  And the mome raths outgrab"  
 But if the eyes are dotted and the teas are crossed, then it's alright.  
 
