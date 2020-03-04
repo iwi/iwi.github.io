@@ -1,4 +1,12 @@
-# slideocuments and infodecks
+---
+layout: post
+title: "slideocuments and infodecks"
+cover: cover.jpg
+date:   2020-03-04 12:00:00
+categories: posts
+published: false
+---
+
 Here's my little rant about documents that end up written down on slides. 
 
 This is not new. There are a few summaries that date at least as far back as 2006, which talk about the idea of _slideocuments_ and how bad and inappropriate they are as they're end up being neither good presentations nor good documents. If you want to just read one, I'd recommend this short note from Martin Fowler. It is my favourite as it distinguishes between _slideocuments_ and _infodecks_ which I think is fundamental. 
