@@ -19,7 +19,7 @@ For clarity, let's define an _infodeck_ as a **standalone document** written on 
 
 Plenty of the above are problematic when the goal is to communicate information in a format that's easy to digest. Specifically:
 
-  - Forcing your documentation to be formatted in pages is a restriction which is only necessary if the document needs to be printed (or maybe projected). I can understand some people prefer to read on paper, but as far as I can see this is less and less common nowadays and I imagine it will only become rarer. Confining the information within the space of a page can be, in some situations, quite limitting and might have undesired design implications. The most usual consequences are slides with almost no margins, no space for footnotes, and generally cramped extremely small font sizes.
+  - Forcing your documentation to be formatted in pages is a restriction which is only necessary if the document needs to be printed (or maybe projected). I can understand some people prefer to read on paper, but as far as I can see this is less and less common nowadays and I imagine it will only become rarer. Confining the information within the space of a page can be, in some situations, quite limiting and might have undesired design implications. The most usual consequences are slides with almost no margins, no space for footnotes, and generally cramped extremely small font sizes.
 
   - The siloing of sections into slides has the effect of making it particularly difficult to extend content. Subsections with extra information or updates, usually require a full rebuild of the slide, or usually just an extra bit of text in that empty corner of the slide.
 
@@ -30,7 +30,7 @@ Plenty of the above are problematic when the goal is to communicate information 
 
   - Last, and maybe less important there is the fact a document frequently needs to refer to external sources or appendices or footnotes. With _classic documents_ there are well established ways of doing it, however with _infodecks_ it's difficult and tends to be badly achieved. There's no unique place to include a footnote, and cross-referencing to other parts of the _infodeck_ tends to be arduous.
 
-In a nutshell, writing a good _classic document_ is difficult and rarely achieved, wirting a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
+In a nutshell, writing a good _classic document_ is difficult and rarely achieved, writing a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
 
 
 ---
