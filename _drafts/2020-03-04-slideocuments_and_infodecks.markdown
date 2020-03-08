@@ -7,92 +7,46 @@ categories: posts
 published: false
 ---
 
-Here's my little rant about documents that end up written down on slides. 
+_Slide packs_, _slide decks_, _infodecks_, _slideocuments_, etc. are everywhere and people around me assume they are an excellent means for keeping and communicating knowledge and many times they are the default choice information medium. Well, I challenge that, I despise slide-based-documents, I hate having to read them and I try to avoid them as much as I can. Here's a little rant on the reasons why I feel like that. 
 
-This is not new. There are a few summaries that date at least as far back as
-[2006](https://www.presentationzen.com/presentationzen/2006/04/slideuments_and.html), which talk about the idea of _slideocuments_ and how bad and
-inappropriate they are as they're neither good presentations nor good
-documents. I recommend [this short note from Martin Fowler](https://martinfowler.com/bliki/Slideument.html). I like how it
-makes a distinction between _slideocuments_ and _infodecks_ which I think helps
-separate concerns adequately.
+This is not new or just some crazy idea that only I have. There are a few articles that date at least as far back as [2006](https://www.presentationzen.com/presentationzen/2006/04/slideuments_and.html) which critique (and criticise) the idea of combining slide based presentations and documents aka _slideocuments_. They explain how bad and inappropriate they are as they end up being neither good presentations nor good documents. It's worth reading  [this short note from Martin Fowler](https://martinfowler.com/bliki/Slideument.html); I like how he makes a distinction between _slideocuments_ and _infodecks_ which helps separate concerns adequately.
 
-Most of sources I've found are clear in communicating that slides for
-presentations are not dicuments and should never be used as such. However, they
-don't address the issues _infodecks_ have. This is relevant as _infodecks_ are
-more and more prevalent - at least in the world I work.
+Most of the sources I've found are clear in communicating that slides that are written as a support for presentations are terrible as documents and viceversa. A document and a presentation are very different things with different purposes, and it is a very bad idea to attempt to squash them into a single product. 
 
-An _infodeck_ can be defined as a **standalone document** written on
-**landscape** formatted **pages** (aka slides), which on top of text, uses
-graphics and other **visual devices** (e.g. extreme font types, arrows, boxes,
-columns, colouring) to communicate information in a **not necessarily linear**
-way (within each slide).
+_Slideocuments_ are indeed a problem that's still around and doesn't seem to be going away any time soon but at least the problem has been identified. However, I haven't found any good challenge on the use of _infodecks_ as documents, as a tool to keep and provide  _to-read_ information. In addition to my inclination to ranting, this is relevant because _infodecks_ are prevalent in the workplace and I don't see many people questioning their value. 
 
-Plenty of the above are problematic when the goal is to communicate information
-in an easy to absorb format (hopefully in a format that can be faster to digest
-than a _classic document_).
+For clarity, let's define an _infodeck_ as a **standalone document** written on **landscape** formatted **pages** (aka slides), which on top of text, often uses graphics and other **visual devices** (e.g. extreme font types, arrows, boxes, columns, colouring) to communicate information in a **not necessarily linear** way (within each slide).  
 
-Specifically:
+Plenty of the above are problematic when the goal is to communicate information in a format that's easy to digest. Specifically:
 
-- Pages are only necessary for printing or maybe projecting (on a
-    presentation). I personally read most of the documents on a screen: either
-    computer or phone, I know a few that choose to read on tablets or
-    e-readers, and none of these media require the information to be confined
-    within the space of a page. Therefore, paging means assuming that the
-    audience will want to read on paper (and accuse/excuse themselves as
-    Ludites, 🙄), maybe it's time to save some trees 🙂.
+  - Forcing your documentation to be formatted in pages is a restriction which is only necessary if the document needs to be printed (or maybe projected). I can understand some people prefer to read on paper, but as far as I can see this is less and less common nowadays and I imagine it will only become rarer. Confining the information within the space of a page can be, in some situations, quite limitting and might have undesired design implications. The most usual consequences are slides with almost no margins, no space for footnotes, and generally cramped extremely small font sizes.
 
-    - Although a landscape formatting can have some benefits for specific
-        visuals, for reading it's clearly suboptimal. It's agreed that very
-        long lines are harder to read. To be fair, many _infodecks_ split the
-        text in shorter columns which takes me to the next point:
-        non-linearity.
+  - The siloing of sections into slides has the effect of making it particularly difficult to extend content. Subsections with extra information or updates, usually require a full rebuild of the slide, or usually just an extra bit of text in that empty corner of the slide.
 
-        - A non-linear narrative can work in some particular cases or maybe for
-            some people, but it puts the pressure on the reader. When a
-            document is linear there's an unspoken agreement that you just move
-            on downwards starting from the top until you reach a point where it
-            has a note suggesting you to skip to a next topic down, or it gets
-            to too much detail for you to be interested. Of course this assumes
-            that a _classic document_ is well structured, which yes, I know is
-            rare. I'm also assuming an _infodeck_ is well structured and I'd
-            say that is a bigger assumption as it seldom happens. Many people
-            feel entitled by the design freedom that the space of a slide gives
-            them. It allows them to be creative, to add pictures so it's 'less
-            boring' and more 'alive' (I'm not joking I've heard those exact
-            words to describe the addition of images into a document that is
-            meant for adults who are professionally interested in the content
-            of a document).
+  - _Infodecks_ are by default written in a landscape format. Again this seems related to the fact that this type of document is paginated and I suspect that it's a legacy from projected presentations. Although a landscape formatting can have some benefits for specific visuals, for reading it's clearly suboptimal. It's agreed that [very long lines are harder to read](http://www.humanfactors.com/newsletters/optimal_line_length.asp). This is the unfortunate case of many _infodecks_ I've come across, but to be fair, there are also many of them that split the text in shorter columns and alternative text configurations, which takes me to the next point: non-linearity.
 
-            - different language: when using an _infodeck_ instead of a
-            _classic document_, we're getting the information in a supposedly
-            pre-chewed form that can be fed to us quickly and easily but in
-            fact they end up being very difficult to navigate and to extract
-            the actual information one needs or utterly simple and not
-            containing that necessary information that we were after. We're
-            asked to make an extra effort to understand a different language
-            which tends to be inconsistent as it's produced by people who are
-            usually not good at designing.
-            - The combination of pagination, landscape and non-linearity
-            exacerbate the siloing of the pages. It's not easy to communicate
-            the branching of a concept, sub-sections of a higher level one, and
-            other structural devices of a _classic document_. The _slide unit_
-            is confined to one page. It could have some goodness if it
-            translated into more concise ideas and better summarised
-            information but instead it tends to cramp up pages with minuscule
-            text.
+  - A non-linear narrative on a slide of an _infodeck_ may make sense in some situations,  for some particular type of content or maybe with some specific audiences. However, as non-linearity adds complexity to the narrative, it relies on the writer's ability to use design elements that help the reader navigate the information contained on the slide.
+  In all cases this puts extra pressure on the reader that will need to interpret the alternative semiotics used to deliver the message. When compared to _classic documents_ this extra chance to add design and creativity in a document increases the likelihood of ending up with an unintelligible piece that ignores that the main purpose is to communicate information in the most effective way for the reader, that makes the assumption that the audience's will by default understand the structure and interactions of a different design. Diverging from convention is difficult and requires a skill which is not particularly abundant therefore, in most cases, the costs are larger than the benefits.
 
-            - **standalone**: A document is expected to be self contained or to
-            refer to other documents occasionally. Doing that in an _infodeck_
-            is possible, but difficult and rare. Appendices are an easy device
-            to include extra detail in a document. It's a well established way
-            to leave some of the content for later and/or for subsets of the
-            audience. On a slide in an _infodeck_ adding appendices is hard and
-            tends to be badly achieved. There's no unique place to include a
-            footnote, and cross-referencing to other parts of the _infodeck_
-            tends to be arduous.
+  - Last, and maybe less important there is the fact a document frequently needs to refer to external sources or appendices or footnotes. With _classic documents_ there are well established ways of doing it, however with _infodecks_ it's difficult and tends to be badly achieved. There's no unique place to include a footnote, and cross-referencing to other parts of the _infodeck_ tends to be arduous.
+
+In a nutshell, writing a good _classic document_ is difficult, wirting a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
 
 
 
-Of course I'm not referring to those people that are just lazy and make a few
-bullet points that serve no purpose whatsoever, those would produce terrible
-documents no matter the format
+Of course this assumes that a _classic document_ is well structured, which is rare. I'm also assuming an _infodeck_ is well structured and I'd say that is a much bigger assumption as it seldom happens. Many people feel entitled by the design freedom that the space of a slide gives them. It allows them to be creative, to add pictures so it's 'less boring' and more 'alive' (I'm not joking I've heard those exact words to describe the addition of images into a document that is meant for adults who are professionally interested in the content of a document). Unfortunately, being creative means using a different language, where rules are badly specified. I still haven't seen a style guide for _infodecks_.
+
+Of course I'm not referring to those people that are just lazy and make a few bullet points that serve no purpose whatsoever, those would produce terrible documents no matter the format
+
+  Within a slide, it's harder to tell what you need to read to capture the level of detail you're looking for. 
+
+Navigation between pages / sections / appendices.
+
+Navigation within pages 
+
+---
+Jeff Bezos' ban of powerpoint has a couple of killer sentences:
+
+> The reason writing a 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
+>
+> Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the innerconnectedness of ideas.
