@@ -32,10 +32,12 @@ Plenty of the above are problematic when the goal is to communicate information 
 
 In a nutshell, writing a good _classic document_ is difficult and rarely achieved, writing a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
 
+PS.- There is worse though, documents on spreadsheets make _infodecks_ look
+good.
 
 ---
 
-PS.- Amazon's ban of powerpoint has a couple of killer paragraphs worth quoting
+PPS.- Amazon's ban of powerpoint has a couple of killer paragraphs worth quoting
 here:
 
 > The reason writing a 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
