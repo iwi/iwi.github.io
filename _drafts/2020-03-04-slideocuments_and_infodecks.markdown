@@ -30,22 +30,13 @@ Plenty of the above are problematic when the goal is to communicate information 
 
   - Last, and maybe less important there is the fact a document frequently needs to refer to external sources or appendices or footnotes. With _classic documents_ there are well established ways of doing it, however with _infodecks_ it's difficult and tends to be badly achieved. There's no unique place to include a footnote, and cross-referencing to other parts of the _infodeck_ tends to be arduous.
 
-In a nutshell, writing a good _classic document_ is difficult, wirting a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
+In a nutshell, writing a good _classic document_ is difficult and rarely achieved, wirting a good _infodeck_ is way harder and the options to produce something that's useless grow exponentially. 
 
-
-
-Of course this assumes that a _classic document_ is well structured, which is rare. I'm also assuming an _infodeck_ is well structured and I'd say that is a much bigger assumption as it seldom happens. Many people feel entitled by the design freedom that the space of a slide gives them. It allows them to be creative, to add pictures so it's 'less boring' and more 'alive' (I'm not joking I've heard those exact words to describe the addition of images into a document that is meant for adults who are professionally interested in the content of a document). Unfortunately, being creative means using a different language, where rules are badly specified. I still haven't seen a style guide for _infodecks_.
-
-Of course I'm not referring to those people that are just lazy and make a few bullet points that serve no purpose whatsoever, those would produce terrible documents no matter the format
-
-  Within a slide, it's harder to tell what you need to read to capture the level of detail you're looking for. 
-
-Navigation between pages / sections / appendices.
-
-Navigation within pages 
 
 ---
-Jeff Bezos' ban of powerpoint has a couple of killer sentences:
+
+PS.- Amazon's ban of powerpoint has a couple of killer paragraphs worth quoting
+here:
 
 > The reason writing a 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
 >
