@@ -4,7 +4,7 @@ title: "slideocuments and infodecks"
 cover: cover.jpg
 date:   2020-03-04 12:00:00
 categories: posts
-published: false
+published: true
 ---
 
 _Slide packs_, _slide decks_, _infodecks_, _slideocuments_, etc. are everywhere and many people around me assume they are an excellent means for keeping and communicating knowledge. Well, I challenge that, I despise slide-based-documents, I hate having to read them and I try to avoid them as much as I can. Here's a little rant on the reasons why I feel like that. 
