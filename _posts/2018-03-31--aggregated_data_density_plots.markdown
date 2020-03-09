@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aggregate data for density plots"
+title: "aggregate data for density plots"
 cover: cover.jpg
 date:   2018-03-31 12:00:00
 categories: posts
